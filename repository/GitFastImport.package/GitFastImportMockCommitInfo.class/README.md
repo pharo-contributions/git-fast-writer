@@ -1,0 +1,1 @@
+I am a mock object for testing writing commit preamble.

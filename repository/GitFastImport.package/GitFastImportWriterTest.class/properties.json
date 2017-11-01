@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "",
+	"super" : "TestCase",
+	"category" : "GitFastImport-Tests",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"stream",
+		"writer",
+		"store"
+	],
+	"name" : "GitFastImportWriterTest",
+	"type" : "normal"
+}

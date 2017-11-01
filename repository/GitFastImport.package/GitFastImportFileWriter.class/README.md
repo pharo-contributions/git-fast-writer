@@ -1,0 +1,1 @@
+I take a Memory Store and write the contents on a provided write stream in a git fast-import format.

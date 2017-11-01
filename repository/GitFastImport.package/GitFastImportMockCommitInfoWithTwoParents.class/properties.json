@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "GitFastImportMockCommitInfo",
+	"category" : "GitFastImport-Tests",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"parents"
+	],
+	"name" : "GitFastImportMockCommitInfoWithTwoParents",
+	"type" : "normal"
+}
