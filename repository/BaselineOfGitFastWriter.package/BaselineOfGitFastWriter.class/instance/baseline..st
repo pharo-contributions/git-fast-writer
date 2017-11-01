@@ -3,5 +3,5 @@ baseline: spec
 	<baseline>
 	spec
 		for: #common
-		do: [ spec package: 'GitFastWriter'.
-			spec group: 'default' with: #('GitFastWriter') ]
+		do: [ spec package: 'GitFastImport'.
+			spec group: 'default' with: #('GitFastImport') ]
