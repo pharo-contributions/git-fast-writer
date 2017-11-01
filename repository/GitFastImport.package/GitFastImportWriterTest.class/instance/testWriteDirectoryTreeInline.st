@@ -1,7 +1,7 @@
 tests - writing - import file
 testWriteDirectoryTreeInline
 	| fs file1 file2 file3 |
-	fs := FileSystem store: GitMigrationMemoryStore new.
+	fs := self newMemoryStore.
 	file1 := fs / 'folder' / 'top.txt'.
 	file2 := fs / 'folder' / 'empty.txt'.
 	file3 := fs / 'folder' / 'subfolder' / 'bottom.txt'.

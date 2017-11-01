@@ -1,6 +1,6 @@
 tests - writing - import file
 testWriteFileModes
-	| commit contents |
+	| contents |
 	(store / 'special-files') ensureCreateDirectory.
 	(store / 'special-files' / 'dir-link') ensureCreateFile.
 	(store / 'special-files' / 'executable.sh') ensureCreateFile.

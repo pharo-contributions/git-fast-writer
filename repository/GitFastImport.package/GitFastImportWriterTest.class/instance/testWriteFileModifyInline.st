@@ -1,7 +1,7 @@
 tests - writing - import file
 testWriteFileModifyInline
 	| fs file |
-	fs := FileSystem store: GitMigrationMemoryStore new.
+	fs := self newMemoryStore.
 	file := fs / 'folder' / 'subfolder' / 'file.txt'.
 	file parent ensureCreateDirectory.
 	file
