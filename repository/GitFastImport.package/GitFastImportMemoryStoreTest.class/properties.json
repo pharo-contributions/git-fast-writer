@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "TestCase",
+	"category" : "GitFastImport-Tests",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"store"
+	],
+	"name" : "GitFastImportMemoryStoreTest",
+	"type" : "normal"
+}

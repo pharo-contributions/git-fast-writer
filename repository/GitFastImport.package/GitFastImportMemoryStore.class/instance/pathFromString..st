@@ -2,7 +2,9 @@ converting
 pathFromString: aString
 	| normalized |
 	"Normalize both / to \ to the current one (so it works both on Unix and Windows)"
-	normalized := aString copy
-		replaceAll: WindowsStore delimiter with: self delimiter;
-		replaceAll: UnixStore delimiter with: self delimiter.
+	normalized := (aString
+		copyReplaceAll: WindowsStore delimiter asString
+		with: self delimiter asString)
+		copyReplaceAll: UnixStore delimiter asString
+		with: self delimiter asString.
 	^ super pathFromString: normalized
