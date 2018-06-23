@@ -1,2 +1,2 @@
 SystemOrganization addCategory: #GitFastImport!
-SystemOrganization addCategory: 'GitFastImport-Tests'!
+SystemOrganization addCategory: #'GitFastImport-Tests'!
