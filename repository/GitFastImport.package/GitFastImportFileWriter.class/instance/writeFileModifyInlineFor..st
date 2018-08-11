@@ -5,9 +5,9 @@ writeFileModifyInlineFor: aFileReference
 	writeStream
 		nextPutAll: 'M ' , (self fileModeFor: aFileReference) , ' inline ';
 		<< (aFileReference fullName trimLeft: [ :c | c = self delimiter ]);
-		cr;
+		lf;
 		<< 'data ';
-		<< contents utf8Encoded size;
-		cr;
+		<< contents utf8Encoded size asString;
+		lf;
 		<< contents;
-		cr
+		lf
