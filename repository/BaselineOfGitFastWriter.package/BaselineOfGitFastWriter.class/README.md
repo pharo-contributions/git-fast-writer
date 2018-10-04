@@ -1,1 +1,0 @@
-I am a baseline for github.com/peteruhnak/git-fast-writer

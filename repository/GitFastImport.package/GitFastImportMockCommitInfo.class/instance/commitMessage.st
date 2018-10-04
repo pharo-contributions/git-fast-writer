@@ -1,3 +1,0 @@
-accessing
-commitMessage
-	^ 'commit message'
