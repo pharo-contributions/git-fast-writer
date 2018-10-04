@@ -1,3 +1,3 @@
 initialization
 on: aStream
-	writeStream := aStream
+	writeStream := GitFastImportGuardStream on: aStream
